@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <center>
+     <a href="Home">Home</a>
+     <a href="coureses">courses</a>
+     <a href="contactus">contactus</a>
+     <a href="Add courses">Add courses</a>
+     <a href="Log out">log out</a>
+    </center>
+    <img src="logo.png"height="50"width="50">
+    <h1 align="center"><font color="red"face="Ariel">Add Course</font></h1>
+    <form >
+        <center>
+        <table>
+            <tr>
+                <td>Course Name:</td>
+                <td><input type="text"placeholder="Enter the course name"required></td>
+            </tr>  
+                <tr>
+                <td>Course Id:</td>
+                <td><input type="text"placeholder="Enter course id"required></td>
+            </tr>
+            <tr>
+                <td>Course Type:</td>
+                <td><select name="course type"required>
+                    <option value="Course 1"selected>course 1</option>
+                    <option value="Course 2">course 2</option>
+                    <option value="Course 3">course 3</option></select>
+                </td>
+            </tr>
+            <tr>
+                <td>Description:</td>
+                <td><textarea rows="5"cols="20"placeholder="Description on the coures"></textarea></td>
+            </tr>
+            <tr>
+                <td>Price:</td>
+                <td><select name="Price"required>
+                    <option value="50000"selected>50000/-</option>
+                    <option value="40000">40000/-</option>
+                    <option value="30000">30000/-</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><td><input type="submit"value="Add course"></td></td>
+                <td><td><input type="reset"value="Reset"></td></td>
+            </tr>
+        </table>
+    </center>
+    </form>
+</body>
+</html>
